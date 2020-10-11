@@ -1,0 +1,26 @@
+.box{
+    margin: 18% auto;
+    text-align: center;
+}
+.input{
+        height: 30px;
+        width: 30% !important;
+        margin: 6px auto;
+        border-radius: 15px;
+    }
+footer{
+        bottom: 0px;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: white;
+        text-shadow: black 1px 0 10px; 
+        font-size: 1.5rem;
+}
+
+ 
+@media (max-width: 699px){
+    footer{
+        position: relative;
+    }
+}
