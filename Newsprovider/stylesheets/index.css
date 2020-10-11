@@ -1,0 +1,13 @@
+.cards{
+    margin-left: 80px !important;
+}
+.input{
+    height: 40px;
+    width: 30% !important;
+    margin: 6px auto;
+    border-radius: 15px;
+}
+.box{
+    margin: 18% auto;
+    text-align: center;
+}

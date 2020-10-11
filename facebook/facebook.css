@@ -1,0 +1,197 @@
+body{
+	background-image: url("grid.png");
+	height:750px;
+	padding: 0px;
+	
+}
+.fb-header{
+	width:100%;
+	height:90px;
+	position:absolute;
+	background:#3d5b99;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+	font-family:verdana;
+	
+}
+.fb-body{
+	position:absolute;
+	left:0px;
+	top:90px;
+	width:100%;
+	height:645px;
+}
+
+#form1{
+	left:750px;
+	height:60px;
+	width:180px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+#form2{
+	left:940px;
+	height:60px;
+	width:250px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+#formName{
+	left:150px;
+	height:60px;
+	width:180px;
+	top:20px;
+	font-family:verdana;
+	font-size:20px;
+        padding-left:180px;
+}
+#img{
+	top:130px;
+	left:178px;
+	width:537px;
+	height:195px;
+}
+.background{
+	background-color: rgb(220, 225, 234);
+}
+.submit1{
+	left:1130px;
+	top:35px;
+	background:#5b7bc0;
+	color:white;
+	position:fixed;
+	z-index:20;
+	height:22px;
+	width:50px;
+	cursor:pointer;
+	
+
+	
+}
+.fb-body{
+	position:absolute;
+	left:0px;
+	top:90px;
+	width:100%;
+	height:645px;
+	
+
+}
+#intro1{
+	left:178px;
+	top:20px;
+	font-family:verdana;
+	font-size:20px;
+	color:#142170;
+	height:75px;
+	width:550px;
+}
+#intro2{
+	left:750px;
+	top:20px;
+	font-family:verdana;
+	font-size:30px;
+	color:#000;
+	font-weight:bold;
+	height:75px;
+	width:500px;
+}
+#intro3{
+	left:750px;
+	top:70px;
+	font-family:verdana;
+	font-size:18px;
+	color:#000;
+	height:50px;
+	width:300px;
+}
+#form3{
+	/* top:120px; */
+	left:750px;
+	font-family:verdana;
+	/* font-size:20px;
+	color:#142170;
+	width:450px;
+	height:495px; */
+	
+}
+ #namebox{
+	width:180px;
+	height:20px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray; 
+ }
+
+#mailbox{
+	width:390px;
+	height:20px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#r-b{
+	font-size:12px;
+	height:15px;
+	width:15px;
+}
+.button2{
+	width:180px;
+	height:40px;
+	left:550px;
+	top:625px;
+	background: rgb(34, 165, 76);
+	font-family:verdana;
+	font-size:18px;
+	color:white;
+	border-radius:5px 5px 5px 5px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: rgb(2, 73, 25);
+	cursor:pointer;
+	outline:none;
+	text-decoration: none;
+}
+#intro4{
+	font-family:verdana;
+	font-size:12px;
+	margin-left: 0px;
+	color:gray;
+	
+}
+.button3{
+	background-color: #3d5b99;
+	text-decoration-color: white;
+}
+#intro5{
+	font-family:verdana;
+	font-size:14px;
+	text-decoration: none;
+	color:gray;
+	
+}
+footer{
+	bottom: -86px;
+	left:2px;
+    position: absolute;
+    /* width: 100%; */
+	padding: 30px; 
+	background-color: white;
+	color:rgb(66, 134, 244);
+	font-size: .85rem;
+	padding-left: 200px;
+}
