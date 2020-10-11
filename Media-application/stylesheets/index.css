@@ -1,0 +1,102 @@
+html, body{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+
+}
+.heading{
+    text-align: center;
+    padding-top: 12%;
+}
+.heading h1{
+    font-size: 3.5rem;
+    color: antiquewhite;
+    text-shadow: black 1px 0 10px;
+}
+.heading button{
+    font-size: .95rem;
+    padding: 10px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.heading button:hover{
+    transform: scale(1.15,1.15);
+}
+.source{
+    margin: 100px auto;
+    width: 400px;
+    font-size: 1rem;
+    padding: 100px;
+    color:antiquewhite;
+    text-shadow:  black 1px 0 10px;
+}
+.source a{
+    text-decoration: none;
+    color:antiquewhite;
+    text-shadow:  black 1px 0 10px;
+}
+.source video{
+    height: 300px;
+}
+.center{
+    text-align: center;
+}
+iframe{
+    height: 300px;
+    width: 450px
+}
+nav ul{
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background: #333;
+}
+nav ul li{
+    float: left;
+}
+nav ul a{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul a:hover{
+    background: #111;
+}
+footer{
+    padding-top: 400px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: black 1px 0 10px;
+    font-size: 2rem;
+}
+@media only screen and (max-width:470px){
+    body{
+        height: 100vh;
+        width: 100vw;
+        background-image: url('../images/img1.jpg');
+        background-size: cover;
+        position:fixed;
+    }
+    footer{
+        position: absolute;
+
+    }
+    .center{
+        text-align: center;
+    }
+}
